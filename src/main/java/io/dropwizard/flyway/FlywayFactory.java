@@ -60,7 +60,7 @@ public class FlywayFactory {
     private String baselineDescription = "<< Flyway Baseline >>";
     @JsonProperty
     @NotNull
-    private boolean baselineOnMigrate = false;
+    private boolean baselineOnMigrate = true;
     @JsonProperty
     @NotNull
     private boolean validateOnMigrate = true;
